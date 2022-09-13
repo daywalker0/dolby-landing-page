@@ -31,6 +31,8 @@ export default {
 	&__container {
 		display: flex;
 		justify-content: space-between;
+		position: relative;
+		padding: 140px 0 180px;
 	}
 }
 .home-content {
@@ -43,46 +45,28 @@ export default {
 		color: #FFFFFF;
 	}
 	&__title {
-		font-family: JosefinSans;
-		font-weight: 700;
 		font-size: 80px;
 		line-height: 80px;
-		letter-spacing: 0.1em;
-		color: #FFFFFF;
-		opacity: 0.75;
 		text-transform: uppercase;
+		letter-spacing: 0.1em;
 	}
 	&__subtitle {
 		font-size: 16px;
-		font-weight: 400;
-		line-height: 28px;
 		letter-spacing: -0.02em;
 		color: rgba(255, 255, 255, 0.75);
-		padding: 25px 0 27px;
-	}
-}
-.title {
-}
-.subtitle {
-}
-.btn {
-	font-size: 18px;
-	line-height: 28px;
-	color: rgba(255, 255, 255, 0.75);
-	text-decoration: none;
-	&::after {
-		content: '';
-		background: url('~static/arrow.svg');
-		background-size: cover;
-		height: 20px;
-		width: 45px;
-		display: inline-block;
-		margin-left: 12px;
-		vertical-align: middle;
+		padding: 0 0 27px;
 	}
 }
 .btn-get-started {
 }
 .home-defi-image {
+	position: absolute;
+	right: -75px;
+	top: -40px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 330px;
+	img {
+		padding: 70px 40px;
+	}
 }
 </style>

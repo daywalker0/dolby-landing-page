@@ -3,3 +3,31 @@
 	margin: 0 auto;
 	padding: 0 50px;
 }
+.title {
+	font-family: JosefinSans;
+	font-weight: 700;
+	color: #FFFFFF;
+	opacity: 0.75;
+}
+.subtitle {
+	font-family: Poppins;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.btn {
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+	&::after {
+		content: '';
+		background: url('~static/arrow.svg');
+		background-size: cover;
+		height: 20px;
+		width: 45px;
+		display: inline-block;
+		margin-left: 12px;
+		vertical-align: middle;
+	}
+}

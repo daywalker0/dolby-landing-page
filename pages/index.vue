@@ -1,13 +1,12 @@
 <template>
 	<main class="main">
 		<SectionHome />
+		<SectionArtworks />
 	</main>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
+
 </script>
 
 <style lang="scss">

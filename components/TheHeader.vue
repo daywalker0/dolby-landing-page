@@ -31,4 +31,9 @@ export default {
 		}
 	}
 }
+@media (min-width: 1650px) {
+	.header__logo {
+		padding-left: 200px;
+	}
+}
 </style>
