@@ -6,8 +6,7 @@
 .title {
 	font-family: JosefinSans;
 	font-weight: 700;
-	color: #FFFFFF;
-	opacity: 0.75;
+	color: rgba(255, 255, 255, 0.75);
 }
 .subtitle {
 	font-family: Poppins;
@@ -30,4 +29,14 @@
 		margin-left: 12px;
 		vertical-align: middle;
 	}
+}
+
+img {
+	max-width: 100%;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

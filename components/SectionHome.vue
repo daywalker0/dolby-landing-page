@@ -26,6 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .s-home {
+	min-height: 100vh;
 }
 .home {
 	&__container {

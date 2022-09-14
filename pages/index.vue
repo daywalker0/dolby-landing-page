@@ -2,6 +2,7 @@
 	<main class="main">
 		<SectionHome />
 		<SectionArtworks />
+		<SubscribeForm />
 	</main>
 </template>
 

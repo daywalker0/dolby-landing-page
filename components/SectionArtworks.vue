@@ -17,6 +17,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.s-artworks {
+	padding-bottom: 128px;
+}
 .artworks {
 	&__title {
 		font-size: 36px;
