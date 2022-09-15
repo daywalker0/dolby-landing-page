@@ -16,7 +16,6 @@ export default {
 
 <style lang="scss">
 .footer {
-	margin-top: 200px;
 	border-top: 1px solid #958F8F;
 		&__container {
 			display: grid;

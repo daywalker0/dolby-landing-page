@@ -110,12 +110,5 @@ export default {
 		}
 	}
 }
-h4 { 
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	font-weight: bold;
-}
 
 </style>

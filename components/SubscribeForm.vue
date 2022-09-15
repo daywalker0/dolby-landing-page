@@ -1,20 +1,22 @@
 <template>
-	<div class="form__container">
-		<h1 class="form__title title">Never Miss a drop!</h1>
-		<p class="form__subtitle subtitle">Subscribe to our ultra-exclusive drop list and be the first to know about upcoming dolby drops.</p>
-		<form class="subscribe-form-form" action="#">
-			<label for="email"></label>
-			<input
-				name="email"
-				class="email-input"
-				type="text"
-				placeholder="Email Address"
-				v-model.trim="email"
-				@input="inputValue = $event.target.value">
-			<button
-				class="btn-submit-form"
-				type="submit">Subscribe</button>
-		</form>
+	<div class="form">
+		<div class="form__container">
+			<h1 class="form__title title">Never Miss a drop!</h1>
+			<p class="form__subtitle subtitle">Subscribe to our ultra-exclusive drop list and be the first to know about upcoming dolby drops.</p>
+			<form class="subscribe-form-form" action="#">
+				<label for="email"></label>
+				<input
+					name="email"
+					class="email-input"
+					type="text"
+					placeholder="Email Address"
+					v-model.trim="email"
+					@input="inputValue = $event.target.value">
+				<button
+					class="btn-submit-form"
+					type="submit">Subscribe</button>
+			</form>
+		</div>
 	</div>
 </template>
 
@@ -33,6 +35,7 @@ export default {
 
 <style lang="scss" scoped>
 .form {
+	padding-bottom: 147px;
 	&__container {
 		text-align: center;
 	}

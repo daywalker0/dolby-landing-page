@@ -40,3 +40,16 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+.main {
+	flex: 1 1 auto;
+}
+
+h4 { 
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+

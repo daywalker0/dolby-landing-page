@@ -3,6 +3,8 @@
 		<SectionHome />
 		<SectionArtworks />
 		<SubscribeForm />
+		<SectionPremier />
+		<SectionRecent />
 	</main>
 </template>
 
@@ -11,8 +13,5 @@
 </script>
 
 <style lang="scss">
-.main {
-	flex: 1 1 auto;
-}
 
 </style>
